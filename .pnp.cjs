@@ -39,11 +39,22 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:15.9.0"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:972c3feb6382752f744ec03cbc1bcd1cb4eac811df1087057611e7aa8e4aa4bdb879d998967d3676033659f174e107087dfa3c341ae44c275b5fe91c44982295#npm:18.3.1"],\
+          ["react-error-boundary", "virtual:972c3feb6382752f744ec03cbc1bcd1cb4eac811df1087057611e7aa8e4aa4bdb879d998967d3676033659f174e107087dfa3c341ae44c275b5fe91c44982295#npm:4.0.13"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["typescript-eslint", "virtual:972c3feb6382752f744ec03cbc1bcd1cb4eac811df1087057611e7aa8e4aa4bdb879d998967d3676033659f174e107087dfa3c341ae44c275b5fe91c44982295#npm:8.2.0"],\
           ["vite", "virtual:972c3feb6382752f744ec03cbc1bcd1cb4eac811df1087057611e7aa8e4aa4bdb879d998967d3676033659f174e107087dfa3c341ae44c275b5fe91c44982295#npm:5.4.2"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@babel/runtime", [\
+      ["npm:7.25.4", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@babel-runtime-npm-7.25.4-0635cb2d0c-10c0.zip/node_modules/@babel/runtime/",\
+        "packageDependencies": [\
+          ["@babel/runtime", "npm:7.25.4"],\
+          ["regenerator-runtime", "npm:0.14.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@esbuild/aix-ppc64", [\
@@ -2619,6 +2630,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-error-boundary", [\
+      ["npm:4.0.13", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-error-boundary-npm-4.0.13-22e72c3a85-10c0.zip/node_modules/react-error-boundary/",\
+        "packageDependencies": [\
+          ["react-error-boundary", "npm:4.0.13"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:972c3feb6382752f744ec03cbc1bcd1cb4eac811df1087057611e7aa8e4aa4bdb879d998967d3676033659f174e107087dfa3c341ae44c275b5fe91c44982295#npm:4.0.13", {\
+        "packageLocation": "./.yarn/__virtual__/react-error-boundary-virtual-203abe62f4/4/AppData/Local/Yarn/Berry/cache/react-error-boundary-npm-4.0.13-22e72c3a85-10c0.zip/node_modules/react-error-boundary/",\
+        "packageDependencies": [\
+          ["react-error-boundary", "virtual:972c3feb6382752f744ec03cbc1bcd1cb4eac811df1087057611e7aa8e4aa4bdb879d998967d3676033659f174e107087dfa3c341ae44c275b5fe91c44982295#npm:4.0.13"],\
+          ["@babel/runtime", "npm:7.25.4"],\
+          ["@types/react", "npm:18.3.4"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-query-error-test", [\
       ["workspace:.", {\
         "packageLocation": "./",\
@@ -2636,11 +2670,21 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:15.9.0"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:972c3feb6382752f744ec03cbc1bcd1cb4eac811df1087057611e7aa8e4aa4bdb879d998967d3676033659f174e107087dfa3c341ae44c275b5fe91c44982295#npm:18.3.1"],\
+          ["react-error-boundary", "virtual:972c3feb6382752f744ec03cbc1bcd1cb4eac811df1087057611e7aa8e4aa4bdb879d998967d3676033659f174e107087dfa3c341ae44c275b5fe91c44982295#npm:4.0.13"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["typescript-eslint", "virtual:972c3feb6382752f744ec03cbc1bcd1cb4eac811df1087057611e7aa8e4aa4bdb879d998967d3676033659f174e107087dfa3c341ae44c275b5fe91c44982295#npm:8.2.0"],\
           ["vite", "virtual:972c3feb6382752f744ec03cbc1bcd1cb4eac811df1087057611e7aa8e4aa4bdb879d998967d3676033659f174e107087dfa3c341ae44c275b5fe91c44982295#npm:5.4.2"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["regenerator-runtime", [\
+      ["npm:0.14.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/regenerator-runtime-npm-0.14.1-a6c97c609a-10c0.zip/node_modules/regenerator-runtime/",\
+        "packageDependencies": [\
+          ["regenerator-runtime", "npm:0.14.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["resolve-from", [\

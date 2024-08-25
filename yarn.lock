@@ -5,6 +5,15 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@babel/runtime@npm:^7.12.5":
+  version: 7.25.4
+  resolution: "@babel/runtime@npm:7.25.4"
+  dependencies:
+    regenerator-runtime: "npm:^0.14.0"
+  checksum: 10c0/33e937e685f0bfc2d40c219261e2e50d0df7381a6e7cbf56b770e0c5d77cb0c21bf4d97da566cf0164317ed7508e992082c7b6cce7aaa3b17da5794f93fbfb46
+  languageName: node
+  linkType: hard
+
 "@esbuild/aix-ppc64@npm:0.21.5":
   version: 0.21.5
   resolution: "@esbuild/aix-ppc64@npm:0.21.5"
@@ -2115,6 +2124,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-error-boundary@npm:^4.0.13":
+  version: 4.0.13
+  resolution: "react-error-boundary@npm:4.0.13"
+  dependencies:
+    "@babel/runtime": "npm:^7.12.5"
+  peerDependencies:
+    react: ">=16.13.1"
+  checksum: 10c0/6f3e0e4d7669f680ccf49c08c9571519c6e31f04dcfc30a765a7136c7e6fbbbe93423dd5a9fce12107f8166e54133e9dd5c2079a00c7a38201ac811f7a28b8e7
+  languageName: node
+  linkType: hard
+
 "react-query-error-test@workspace:.":
   version: 0.0.0-use.local
   resolution: "react-query-error-test@workspace:."
@@ -2131,6 +2151,7 @@ __metadata:
     globals: "npm:^15.9.0"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
+    react-error-boundary: "npm:^4.0.13"
     typescript: "npm:^5.5.3"
     typescript-eslint: "npm:^8.0.1"
     vite: "npm:^5.4.1"
@@ -2143,6 +2164,13 @@ __metadata:
   dependencies:
     loose-envify: "npm:^1.1.0"
   checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.14.0":
+  version: 0.14.1
+  resolution: "regenerator-runtime@npm:0.14.1"
+  checksum: 10c0/1b16eb2c4bceb1665c89de70dcb64126a22bc8eb958feef3cd68fe11ac6d2a4899b5cd1b80b0774c7c03591dc57d16631a7f69d2daa2ec98100e2f29f7ec4cc4
   languageName: node
   linkType: hard
 
